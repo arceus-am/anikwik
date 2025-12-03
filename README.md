@@ -1,26 +1,26 @@
 <p align="center">
   <div align="center">
-    <a href="https://justanime.to">
-      <img alt="JustAnime" src="https://github.com/tejaspanchall/JustAnime/blob/main/public/footer.png" width="220"/>
+    <a href="https://Anikwik.to">
+      <img alt="Anikwik" src="https://github.com/tejaspanchall/Anikwik/blob/main/public/footer.png" width="220"/>
     </a>
   </div>
-    <h3 align="center">JustAnime - Clean & ad free anime streaming</h3>
+    <h3 align="center">Anikwik - Clean & ad free anime streaming</h3>
     <p align="center">
-  <a href="https://github.com/tejaspanchall/JustAnime">
-      <img src="https://img.shields.io/github/stars/tejaspanchall/JustAnime" alt="Github Stars">
+  <a href="https://github.com/tejaspanchall/Anikwik">
+      <img src="https://img.shields.io/github/stars/tejaspanchall/Anikwik" alt="Github Stars">
     </a>
-      <img src="https://img.shields.io/github/issues/tejaspanchall/JustAnime" alt="Github Issues">
-     <a href="https://github.com/tejaspanchall/JustAnime">
-      <img src="https://img.shields.io/github/forks/tejaspanchall/JustAnime" alt="Github Forks" />
+      <img src="https://img.shields.io/github/issues/tejaspanchall/Anikwik" alt="Github Issues">
+     <a href="https://github.com/tejaspanchall/Anikwik">
+      <img src="https://img.shields.io/github/forks/tejaspanchall/Anikwik" alt="Github Forks" />
     </a>
 </p>
 </p>
 <p align="center">
-    <a href="https://justanime.to">JustAnime</a> is an open-source anime streaming service that uses <a href="https://github.com/itzzzme/anime-api">ANIME</a> API, built using ReactJS with javascript and Tailwind CSS. It lets you easily find any anime with intuitive search & suggestion feature and stream without any ads.
+    <a href="https://Anikwik.to">Anikwik</a> is an open-source anime streaming service that uses <a href="https://github.com/itzzzme/anime-api">ANIME</a> API, built using ReactJS with javascript and Tailwind CSS. It lets you easily find any anime with intuitive search & suggestion feature and stream without any ads.
  </p>
 
 <p align="center">
-  <a href="https://discord.gg/P3yqksmGun">
+  <a href="https://discord.gg/P7yqksmGun">
     <img src="https://img.shields.io/badge/Join%20our%20Discord-5865F2?logo=discord&logoColor=white" alt="Join our Discord">
   </a>
 </p>
@@ -53,18 +53,18 @@
 ## Previews
 
 <div style="text-align: left;">
-  <img src="https://github.com/tejaspanchall/JustAnime/blob/main/public/home.PNG" alt="Home Page" style="max-width: 80%;" >
+  <img src="https://github.com/tejaspanchall/Anikwik/blob/main/public/home.PNG" alt="Home Page" style="max-width: 80%;" >
   <details>
   <summary style="margin-top:10px">View more screenshots</summary>
   <br/>
   AnimeInfo Page
-  <img src="https://github.com/tejaspanchall/JustAnime/blob/main/public/info.PNG" style="margin-top:10px" src="" alt="AnimeInfo Page" style="max-width: 80%;">
+  <img src="https://github.com/tejaspanchall/Anikwik/blob/main/public/info.PNG" style="margin-top:10px" src="" alt="AnimeInfo Page" style="max-width: 80%;">
   <br/>
   Character & Voice Actors
-  <img src="https://github.com/tejaspanchall/JustAnime/blob/main/public/char.PNG" style="margin-top:10px" src="" alt="Character & Voice Actors" style="max-width: 80%;">
+  <img src="https://github.com/tejaspanchall/Anikwik/blob/main/public/char.PNG" style="margin-top:10px" src="" alt="Character & Voice Actors" style="max-width: 80%;">
   <br/>
   Watch Page
-  <img src="https://github.com/tejaspanchall/JustAnime/blob/main/public/watch.PNG" style="margin-top:10px" src="" alt="Watch Page" style="max-width: 80%;">
+  <img src="https://github.com/tejaspanchall/Anikwik/blob/main/public/watch.PNG" style="margin-top:10px" src="" alt="Watch Page" style="max-width: 80%;">
   <br/>
   </details>
 </div>
@@ -76,12 +76,12 @@
 ### 2. Run the following code to clone the repository and install all required dependencies
 
 ```bash
-git clone https://github.com/tejaspanchall/JustAnime.git
-cd JustAnime
+git clone https://github.com/tejaspanchall/Anikwik.git
+cd Anikwik
 npm install # or yarn
 ```
 
-### 3. Refer the <a href="https://github.com/tejaspanchall/JustAnime/blob/main/.env.example">.env.example</a> to set your .env file up
+### 3. Refer the <a href="https://github.com/tejaspanchall/Anikwik/blob/main/.env.example">.env.example</a> to set your .env file up
 
 ## Start the server
 
@@ -92,15 +92,15 @@ npm start # or npm run dev (to run develepment server)
 
 ### Vercel
 
-Host your own instance of <a href="https://justanime.to">JustAnime</a>  on vercel
+Host your own instance of <a href="https://Anikwik.to">Anikwik</a>  on vercel
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tejaspanchall/JustAnime)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/tejaspanchall/Anikwik)
 
 ### Render
 
-Host your own instance of <a href="https://justanime.to">JustAnime</a> on Render.
+Host your own instance of <a href="https://Anikwik.to">Anikwik</a> on Render.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tejaspanchall/JustAnime)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/tejaspanchall/Anikwik)
 
 ## Pull Requests
 

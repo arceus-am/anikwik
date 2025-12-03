@@ -15,7 +15,7 @@ export default function IframePlayer({
   const baseURL =
     serverName.toLowerCase() === "hd-1"
       ? import.meta.env.VITE_BASE_IFRAME_URL
-      : serverName.toLowerCase() === "hd-4"
+      : serverName.toLowerCase() === "hd-2"
       ? import.meta.env.VITE_BASE_IFRAME_URL_2
       : undefined; 
 

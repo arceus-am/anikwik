@@ -8,12 +8,12 @@ import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const FAQ_ITEMS = [
   {
-    question: "Is JustAnime safe?",
-    answer: "Yes, JustAnime is completely safe to use. We ensure all content is properly scanned and secured for our users."
+    question: "Is Anikwik safe?",
+    answer: "Yes, Anikwik is completely safe to use. We ensure all content is properly scanned and secured for our users."
   },
   {
-    question: "What makes JustAnime the best site to watch anime free online?",
-    answer: "JustAnime offers high-quality streaming, a vast library of anime, no intrusive ads, and a user-friendly interface - all completely free."
+    question: "What makes Anikwik the best site to watch anime free online?",
+    answer: "Anikwik offers high-quality streaming, a vast library of anime, no intrusive ads, and a user-friendly interface - all completely free."
   },
   {
     question: "How do I request an anime?",

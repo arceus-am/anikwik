@@ -122,16 +122,14 @@ export const useWatch = (animeId, initialEpisodeId) => {
         
         const filteredServers = data?.filter(
           (server) =>
-            server.serverName === "HD-1" ||
-            server.serverName === "HD-2" ||
-            server.serverName === "HD-3"
+            server.serverName === "HD-1",
         );
         if (filteredServers.some((s) => s.type === "sub")) {
           filteredServers.push({
             type: "sub",
             data_id: "69696969",
             server_id: "41",
-            serverName: "HD-4",
+            serverName: "HD-2",
           });
         }
         if (filteredServers.some((s) => s.type === "dub")) {
@@ -139,7 +137,7 @@ export const useWatch = (animeId, initialEpisodeId) => {
             type: "dub",
             data_id: "96969696",
             server_id: "42",
-            serverName: "HD-4",
+            serverName: "HD-2",
           });
         }
         const savedServerName = localStorage.getItem("server_name");
@@ -147,7 +145,7 @@ export const useWatch = (animeId, initialEpisodeId) => {
         const initialServer =
           filteredServers.find(s => s.serverName === savedServerName && s.type === savedServerType) ||
           filteredServers.find(s => s.serverName === savedServerName) ||
-          filteredServers.find(s => s.type === savedServerType && ["HD-1", "HD-2", "HD-3", "HD-4"].includes(s.serverName)) ||
+          filteredServers.find(s => s.type === savedServerType && ["HD-1", "HD-2"].includes(s.serverName)) ||
           filteredServers[0];
 
         setServers(filteredServers);
@@ -175,7 +173,7 @@ export const useWatch = (animeId, initialEpisodeId) => {
     )
       return;
     if (
-      (activeServerName?.toLowerCase() === "hd-1" || activeServerName?.toLowerCase() === "hd-4") 
+      (activeServerName?.toLowerCase() === "hd-1" || activeServerName?.toLowerCase() === "hd-2") 
         &&
       !serverLoading
     ) {
